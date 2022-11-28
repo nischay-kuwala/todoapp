@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import ShowTodo from "./ShowTodo";
 import Form from "./Form";
 import { GrFormAdd } from "react-icons/gr";
-let buttonStatus = true;
 function AddTodo() {
   const previousTodos = JSON.parse(localStorage.getItem("todos") || "[]");
   const previousMarkTodos = JSON.parse(
