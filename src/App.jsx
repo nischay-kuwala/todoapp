@@ -1,5 +1,5 @@
 import React from "react";
-import AddTodo from "./AddTodo";
+import AddTodo from "./Addtodo";
 import Navbar from "./Navbar";
 
 function App() {
